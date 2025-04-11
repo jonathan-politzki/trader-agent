@@ -1,0 +1,30 @@
+{
+    "watched_traders": [
+        "0x1234567890abcdef1234567890abcdef12345678",
+        "0x00000000000000000000000000000000000000c9"
+    ],
+    "min_amount_to_copy": 50,
+    "max_amount_to_copy": 500,
+    "copy_percentage": 0.1,
+    "min_copy_delay": 30,
+    "max_copy_delay": 300,
+    "blacklisted_markets": [],
+    "whitelist_only": false,
+    "whitelisted_markets": [],
+    "copy_buys": true,
+    "copy_sells": true,
+    "max_positions_per_market": 3,
+    "max_daily_trades": 10,
+    "max_daily_amount": 1000,
+    "auto_close_positions": true,
+    "trading_active": false,
+    "polling_interval": 60,
+    "analytics": {
+        "enabled": true,
+        "min_win_rate": 0.7,
+        "min_pnl": 50000,
+        "auto_update_traders": false,
+        "max_auto_traders": 5,
+        "update_interval_hours": 24
+    }
+}
